@@ -104,6 +104,7 @@ Step 6:
 
 Step 7:
 	Now to unlock account we will use a geth command
+	
 	geth --networkid 25734 --datadir “./data” --bootnodes enode://06c7e384aad504783e95a59fc2cd4a6d7f5b1c7acbd9890c2dbe8a0e33cd10c421c650f4ba727de67e64102bb4979ab45d39c48f0bcbef3996b9391016bbe78b@127.0.0.1:0?discport=30301 --port 30303 --ipcdisable --syncmode full --rpc --allow-insecure-unlock --rpccorsdomain “*” --rpcport 8545 --unlock 0x70FE0b4A44c3737818d25437c9C0EF148Ed94063 --password password.txt --mine console
 
 Here the network id is kept from step 4 encode key is kept from step 6 and password.txt is kept from step 2.
